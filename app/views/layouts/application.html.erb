@@ -10,6 +10,13 @@
   </head>
 
   <body>
+    <h1>Navbar</h1>
+      <ul>
+        <li><%= link_to "Home",  root_path%></li>
+        <li><%= link_to "More about us",  about_path%></li>
+        <li><%= link_to "Meet the team",  contact_path%></li>
+      </ul>
     <%= yield %>
+    <p>Footer - with nothing in it for now</p>
   </body>
 </html>
